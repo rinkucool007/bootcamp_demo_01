@@ -10,6 +10,10 @@ on:
       - feature/*
       - development
       - '!master'
+    branches-ignore:
+       - feature/*
+       - development
+       - master
 
 
   # Allows you to run this workflow manually from the Actions tab
